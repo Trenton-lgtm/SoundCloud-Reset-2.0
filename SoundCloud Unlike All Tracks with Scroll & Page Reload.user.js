@@ -3,13 +3,13 @@
 // @namespace    https://github.com/TheWTFdude
 // @version      1.3
 // @description  Automatically unlikes all tracks on SoundCloud Likes page, scrolls down, and reloads after 5 successful unlikes
-// @match        https://soundcloud.com/*/likes
+// @match        https://soundcloud.com/trenton-vanallen/*likes
 // @require      https://code.jquery.com/jquery-3.5.1.min.js
 // ==/UserScript==
 
 var interval = 500; // Time between actions in ms
 var $ = window.jQuery;
-var unlikeCount = 0; // Track the number of successful unlikes
+var unlikeCount = 361; // Track the number of successful unlikes
 var scrollInterval = 2000; // Scroll interval to load new content (in ms)
 var scrollDistance = 300; // Scroll distance in pixels to reveal new posts
 
