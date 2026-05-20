@@ -3,7 +3,7 @@
 // @namespace    https://github.com/TheWTFdude
 // @version      1.3
 // @description  Automatically unlikes all tracks on SoundCloud Likes page, scrolls down, and reloads after 5 successful unlikes
-// @match        https://soundcloud.com/*/likes
+// @match        https://soundcloud.com/trenton-vanallen/*/likes
 // @require      https://code.jquery.com/jquery-3.5.1.min.js
 // ==/UserScript==
 
